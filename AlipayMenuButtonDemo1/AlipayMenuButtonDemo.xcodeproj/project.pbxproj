@@ -1,0 +1,577 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		293DBAAA1FB2F14D00BE11CB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 293DBAA91FB2F14D00BE11CB /* AppDelegate.m */; };
+		293DBAAD1FB2F14D00BE11CB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293DBAAC1FB2F14D00BE11CB /* ViewController.m */; };
+		293DBAB01FB2F14D00BE11CB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293DBAAE1FB2F14D00BE11CB /* Main.storyboard */; };
+		293DBAB21FB2F14D00BE11CB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 293DBAB11FB2F14D00BE11CB /* Assets.xcassets */; };
+		293DBAB51FB2F14D00BE11CB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 293DBAB31FB2F14D00BE11CB /* LaunchScreen.storyboard */; };
+		293DBAB81FB2F14D00BE11CB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 293DBAB71FB2F14D00BE11CB /* main.m */; };
+		293DBAC21FB2F14D00BE11CB /* AlipayMenuButtonDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 293DBAC11FB2F14D00BE11CB /* AlipayMenuButtonDemoTests.m */; };
+		293DBACD1FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 293DBACC1FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests.m */; };
+		293DBADD1FB2F1F000BE11CB /* SingleView.m in Sources */ = {isa = PBXBuildFile; fileRef = 293DBADC1FB2F1F000BE11CB /* SingleView.m */; };
+		293DBAE01FB2F23000BE11CB /* DetailViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 293DBADF1FB2F23000BE11CB /* DetailViewController.m */; };
+		294174621FB3E7CC005DF847 /* UIViewController+NSInteger.m in Sources */ = {isa = PBXBuildFile; fileRef = 294174611FB3E7CC005DF847 /* UIViewController+NSInteger.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		293DBABE1FB2F14D00BE11CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293DBA9D1FB2F14C00BE11CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293DBAA41FB2F14D00BE11CB;
+			remoteInfo = AlipayMenuButtonDemo;
+		};
+		293DBAC91FB2F14D00BE11CB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 293DBA9D1FB2F14C00BE11CB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 293DBAA41FB2F14D00BE11CB;
+			remoteInfo = AlipayMenuButtonDemo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		293DBAA51FB2F14D00BE11CB /* AlipayMenuButtonDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AlipayMenuButtonDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		293DBAA81FB2F14D00BE11CB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		293DBAA91FB2F14D00BE11CB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		293DBAAB1FB2F14D00BE11CB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		293DBAAC1FB2F14D00BE11CB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		293DBAAF1FB2F14D00BE11CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		293DBAB11FB2F14D00BE11CB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		293DBAB41FB2F14D00BE11CB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		293DBAB61FB2F14D00BE11CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293DBAB71FB2F14D00BE11CB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		293DBABD1FB2F14D00BE11CB /* AlipayMenuButtonDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlipayMenuButtonDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293DBAC11FB2F14D00BE11CB /* AlipayMenuButtonDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlipayMenuButtonDemoTests.m; sourceTree = "<group>"; };
+		293DBAC31FB2F14D00BE11CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293DBAC81FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = AlipayMenuButtonDemoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		293DBACC1FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AlipayMenuButtonDemoUITests.m; sourceTree = "<group>"; };
+		293DBACE1FB2F14D00BE11CB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		293DBADA1FB2F1C700BE11CB /* Common.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Common.h; sourceTree = "<group>"; };
+		293DBADB1FB2F1F000BE11CB /* SingleView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SingleView.h; sourceTree = "<group>"; };
+		293DBADC1FB2F1F000BE11CB /* SingleView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SingleView.m; sourceTree = "<group>"; };
+		293DBADE1FB2F22F00BE11CB /* DetailViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DetailViewController.h; sourceTree = "<group>"; };
+		293DBADF1FB2F23000BE11CB /* DetailViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DetailViewController.m; sourceTree = "<group>"; };
+		294174601FB3E7CC005DF847 /* UIViewController+NSInteger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "UIViewController+NSInteger.h"; sourceTree = "<group>"; };
+		294174611FB3E7CC005DF847 /* UIViewController+NSInteger.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+NSInteger.m"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		293DBAA21FB2F14D00BE11CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBABA1FB2F14D00BE11CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBAC51FB2F14D00BE11CB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		293DBA9C1FB2F14C00BE11CB = {
+			isa = PBXGroup;
+			children = (
+				293DBAA71FB2F14D00BE11CB /* AlipayMenuButtonDemo */,
+				293DBAC01FB2F14D00BE11CB /* AlipayMenuButtonDemoTests */,
+				293DBACB1FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests */,
+				293DBAA61FB2F14D00BE11CB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		293DBAA61FB2F14D00BE11CB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				293DBAA51FB2F14D00BE11CB /* AlipayMenuButtonDemo.app */,
+				293DBABD1FB2F14D00BE11CB /* AlipayMenuButtonDemoTests.xctest */,
+				293DBAC81FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		293DBAA71FB2F14D00BE11CB /* AlipayMenuButtonDemo */ = {
+			isa = PBXGroup;
+			children = (
+				293DBAA81FB2F14D00BE11CB /* AppDelegate.h */,
+				293DBAA91FB2F14D00BE11CB /* AppDelegate.m */,
+				293DBAAB1FB2F14D00BE11CB /* ViewController.h */,
+				293DBAAC1FB2F14D00BE11CB /* ViewController.m */,
+				293DBADB1FB2F1F000BE11CB /* SingleView.h */,
+				293DBADC1FB2F1F000BE11CB /* SingleView.m */,
+				293DBADE1FB2F22F00BE11CB /* DetailViewController.h */,
+				293DBADF1FB2F23000BE11CB /* DetailViewController.m */,
+				294174601FB3E7CC005DF847 /* UIViewController+NSInteger.h */,
+				294174611FB3E7CC005DF847 /* UIViewController+NSInteger.m */,
+				293DBAAE1FB2F14D00BE11CB /* Main.storyboard */,
+				293DBADA1FB2F1C700BE11CB /* Common.h */,
+				293DBAB11FB2F14D00BE11CB /* Assets.xcassets */,
+				293DBAB31FB2F14D00BE11CB /* LaunchScreen.storyboard */,
+				293DBAB61FB2F14D00BE11CB /* Info.plist */,
+				293DBAB71FB2F14D00BE11CB /* main.m */,
+			);
+			path = AlipayMenuButtonDemo;
+			sourceTree = "<group>";
+		};
+		293DBAC01FB2F14D00BE11CB /* AlipayMenuButtonDemoTests */ = {
+			isa = PBXGroup;
+			children = (
+				293DBAC11FB2F14D00BE11CB /* AlipayMenuButtonDemoTests.m */,
+				293DBAC31FB2F14D00BE11CB /* Info.plist */,
+			);
+			path = AlipayMenuButtonDemoTests;
+			sourceTree = "<group>";
+		};
+		293DBACB1FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				293DBACC1FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests.m */,
+				293DBACE1FB2F14D00BE11CB /* Info.plist */,
+			);
+			path = AlipayMenuButtonDemoUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		293DBAA41FB2F14D00BE11CB /* AlipayMenuButtonDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293DBAD11FB2F14D00BE11CB /* Build configuration list for PBXNativeTarget "AlipayMenuButtonDemo" */;
+			buildPhases = (
+				293DBAA11FB2F14D00BE11CB /* Sources */,
+				293DBAA21FB2F14D00BE11CB /* Frameworks */,
+				293DBAA31FB2F14D00BE11CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = AlipayMenuButtonDemo;
+			productName = AlipayMenuButtonDemo;
+			productReference = 293DBAA51FB2F14D00BE11CB /* AlipayMenuButtonDemo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		293DBABC1FB2F14D00BE11CB /* AlipayMenuButtonDemoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293DBAD41FB2F14D00BE11CB /* Build configuration list for PBXNativeTarget "AlipayMenuButtonDemoTests" */;
+			buildPhases = (
+				293DBAB91FB2F14D00BE11CB /* Sources */,
+				293DBABA1FB2F14D00BE11CB /* Frameworks */,
+				293DBABB1FB2F14D00BE11CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293DBABF1FB2F14D00BE11CB /* PBXTargetDependency */,
+			);
+			name = AlipayMenuButtonDemoTests;
+			productName = AlipayMenuButtonDemoTests;
+			productReference = 293DBABD1FB2F14D00BE11CB /* AlipayMenuButtonDemoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		293DBAC71FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 293DBAD71FB2F14D00BE11CB /* Build configuration list for PBXNativeTarget "AlipayMenuButtonDemoUITests" */;
+			buildPhases = (
+				293DBAC41FB2F14D00BE11CB /* Sources */,
+				293DBAC51FB2F14D00BE11CB /* Frameworks */,
+				293DBAC61FB2F14D00BE11CB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				293DBACA1FB2F14D00BE11CB /* PBXTargetDependency */,
+			);
+			name = AlipayMenuButtonDemoUITests;
+			productName = AlipayMenuButtonDemoUITests;
+			productReference = 293DBAC81FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		293DBA9D1FB2F14C00BE11CB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0910;
+				ORGANIZATIONNAME = xrh;
+				TargetAttributes = {
+					293DBAA41FB2F14D00BE11CB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+					};
+					293DBABC1FB2F14D00BE11CB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 293DBAA41FB2F14D00BE11CB;
+					};
+					293DBAC71FB2F14D00BE11CB = {
+						CreatedOnToolsVersion = 9.1;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 293DBAA41FB2F14D00BE11CB;
+					};
+				};
+			};
+			buildConfigurationList = 293DBAA01FB2F14C00BE11CB /* Build configuration list for PBXProject "AlipayMenuButtonDemo" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 293DBA9C1FB2F14C00BE11CB;
+			productRefGroup = 293DBAA61FB2F14D00BE11CB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				293DBAA41FB2F14D00BE11CB /* AlipayMenuButtonDemo */,
+				293DBABC1FB2F14D00BE11CB /* AlipayMenuButtonDemoTests */,
+				293DBAC71FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		293DBAA31FB2F14D00BE11CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293DBAB51FB2F14D00BE11CB /* LaunchScreen.storyboard in Resources */,
+				293DBAB21FB2F14D00BE11CB /* Assets.xcassets in Resources */,
+				293DBAB01FB2F14D00BE11CB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBABB1FB2F14D00BE11CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBAC61FB2F14D00BE11CB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		293DBAA11FB2F14D00BE11CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				294174621FB3E7CC005DF847 /* UIViewController+NSInteger.m in Sources */,
+				293DBAE01FB2F23000BE11CB /* DetailViewController.m in Sources */,
+				293DBADD1FB2F1F000BE11CB /* SingleView.m in Sources */,
+				293DBAAD1FB2F14D00BE11CB /* ViewController.m in Sources */,
+				293DBAB81FB2F14D00BE11CB /* main.m in Sources */,
+				293DBAAA1FB2F14D00BE11CB /* AppDelegate.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBAB91FB2F14D00BE11CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293DBAC21FB2F14D00BE11CB /* AlipayMenuButtonDemoTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		293DBAC41FB2F14D00BE11CB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				293DBACD1FB2F14D00BE11CB /* AlipayMenuButtonDemoUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		293DBABF1FB2F14D00BE11CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293DBAA41FB2F14D00BE11CB /* AlipayMenuButtonDemo */;
+			targetProxy = 293DBABE1FB2F14D00BE11CB /* PBXContainerItemProxy */;
+		};
+		293DBACA1FB2F14D00BE11CB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 293DBAA41FB2F14D00BE11CB /* AlipayMenuButtonDemo */;
+			targetProxy = 293DBAC91FB2F14D00BE11CB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		293DBAAE1FB2F14D00BE11CB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293DBAAF1FB2F14D00BE11CB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		293DBAB31FB2F14D00BE11CB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				293DBAB41FB2F14D00BE11CB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		293DBACF1FB2F14D00BE11CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		293DBAD01FB2F14D00BE11CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		293DBAD21FB2F14D00BE11CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = AlipayMenuButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.AlipayMenuButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		293DBAD31FB2F14D00BE11CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = AlipayMenuButtonDemo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.AlipayMenuButtonDemo;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		293DBAD51FB2F14D00BE11CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = AlipayMenuButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.AlipayMenuButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlipayMenuButtonDemo.app/AlipayMenuButtonDemo";
+			};
+			name = Debug;
+		};
+		293DBAD61FB2F14D00BE11CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = AlipayMenuButtonDemoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.AlipayMenuButtonDemoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/AlipayMenuButtonDemo.app/AlipayMenuButtonDemo";
+			};
+			name = Release;
+		};
+		293DBAD81FB2F14D00BE11CB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = AlipayMenuButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.AlipayMenuButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlipayMenuButtonDemo;
+			};
+			name = Debug;
+		};
+		293DBAD91FB2F14D00BE11CB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = 4U8M5497ZW;
+				INFOPLIST_FILE = AlipayMenuButtonDemoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = XRH.AlipayMenuButtonDemoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = AlipayMenuButtonDemo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		293DBAA01FB2F14C00BE11CB /* Build configuration list for PBXProject "AlipayMenuButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293DBACF1FB2F14D00BE11CB /* Debug */,
+				293DBAD01FB2F14D00BE11CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293DBAD11FB2F14D00BE11CB /* Build configuration list for PBXNativeTarget "AlipayMenuButtonDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293DBAD21FB2F14D00BE11CB /* Debug */,
+				293DBAD31FB2F14D00BE11CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293DBAD41FB2F14D00BE11CB /* Build configuration list for PBXNativeTarget "AlipayMenuButtonDemoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293DBAD51FB2F14D00BE11CB /* Debug */,
+				293DBAD61FB2F14D00BE11CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		293DBAD71FB2F14D00BE11CB /* Build configuration list for PBXNativeTarget "AlipayMenuButtonDemoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				293DBAD81FB2F14D00BE11CB /* Debug */,
+				293DBAD91FB2F14D00BE11CB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 293DBA9D1FB2F14C00BE11CB /* Project object */;
+}
